@@ -27,13 +27,13 @@
                 <a href="#Contactos">Contactos</a>
                 <a href="#Visitenos">Visitenos</a>
                 <a href="#Galería de fotos">Galería de fotos</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="updateClassName()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
 
             <script>
-                function myFunction() {
+                function updateClassName() {
                     var x = document.getElementById("myTopnav");
                     if (x.className === "topnav") {
                         x.className += " responsive";
