@@ -15,38 +15,39 @@
     </head>
 
     <body>
-        <img class="fade" alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150"  />
+        <div id="mainHeader">
+            <img class="fade" alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150"  />
 
-        <header>
+            <header>
 
-            <div class="topnav" id="myTopnav">
-                <a href="#Inicio" class="active">Inicio</a>
-                <a href="#Nuestra Historia">Nuestra Historia</a>
-                <a href="#Productos">Productos</a>
-                <a href="#Logros">Logros</a> 
-                <a href="#Contactos">Contactos</a>
-                <a href="#Visitenos">Visitenos</a>
-                <a href="#Galería de fotos">Galería de fotos</a>
-                <a href="javascript:void(0);" class="icon" onclick="updateClassName()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="?controlador=Index&accion=mostrar" class="active">Inicio</a>
+                    <a href="#Nuestra Historia">Nuestra Historia</a>
+                    <a href="#Productos">Productos</a>
+                    <a href="#Logros">Logros</a> 
+                    <a href="#Contactos">Contactos</a>
+                    <a href="?controlador=VisitUs&accion=showVisitUs">Visitenos</a>
+                    <a href="#Galería de fotos">Galería de fotos</a>
+                    <a href="javascript:void(0);" class="icon" onclick="updateClassName()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
 
-            <script>
-                function updateClassName() {
-                    var x = document.getElementById("myTopnav");
-                    if (x.className === "topnav") {
-                        x.className += " responsive";
-                    } else {
-                        x.className = "topnav";
+                <script>
+                    function updateClassName() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
                     }
-                }
-            </script>
+                </script>
 
 
 
 
-        </header>
+            </header>
 
-        <section id="contenido">
-            <section id="principal">
+            <section id="contenido">
+                <section id="principal">
