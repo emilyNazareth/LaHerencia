@@ -157,6 +157,7 @@ th, td {
 .topnav {
     overflow: hidden;
     background-color: blue;
+
 }
 
 .topnav a {
@@ -177,6 +178,7 @@ th, td {
 .topnav a.active {
     background-color: red;
     color: white;
+    
 }
 
 .topnav .icon {
