@@ -5,5 +5,9 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>LaHerencia</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>carrucel</word>
+            <word>galery</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
