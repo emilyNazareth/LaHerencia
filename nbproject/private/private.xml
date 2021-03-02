@@ -3,18 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/js/script.js</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/footer.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/controller/IndexController.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/img/logoHerencia.jpg</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/view/listar.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/view/indexView.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/index.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/css/style.css</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/header.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/img/found.jpg</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/libs/configuration.php</file>
-            <file>file:/C:/Program%20Files%20(x86)/EasyPHP-Devserver-17/eds-www/LacteosHerencia/tarea2/public/js/jquery-3.2.1.js</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/footerSections.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/headerSections.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/header.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/img/logoHerencia.png</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/controller/IndexController.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/view/indexView.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/css/style.css</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/footer.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/view/visitUsView.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/controller/VisitUsController.php</file>
+            <file>file:/C:/xampp/htdocs/LaHerencia/public/img/found.jpg</file>
         </group>
     </open-files>
 </project-private>

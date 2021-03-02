@@ -28,8 +28,8 @@
                     <a href="#Logros">Logros</a> 
                     <a href="#Contactos">Contactos</a>
                     <a href="?controlador=VisitUs&accion=showVisitUs">Visitenos</a>
-                    <a href="#Galería de fotos">Galería de fotos</a>
-                    <a href="javascript:void(0);" class="icon" onclick="updateClassName()">
+                    <a href="?controlador=Galery&accion=showGalery">Galería de fotos</a>
+                    <a href="javascript:void(0);" class="icon" onclick="updateClassName()" style="color: black">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>

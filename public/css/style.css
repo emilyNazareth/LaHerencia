@@ -184,10 +184,12 @@ th, td {
 .topnav a.active {
     background-color: #335384;
     color: white;
+
 }
 
 .topnav .icon {
     display: none;
+   
 }
 
 @media screen and (max-width: 600px) {
@@ -241,4 +243,21 @@ th, td {
     color: white;
     display: block;
     text-align: center;
+    margin-top: 100px;
 }
+
+#previous {
+    color: blue;
+}
+
+#next {
+    color: blue;
+}
+
+#galery {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
