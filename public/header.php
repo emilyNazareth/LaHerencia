@@ -7,6 +7,7 @@
         <meta name="description" content="Lacteos La Herencia" />
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="public/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="public/img/logoHerencia.png"/> 
 
         <script type="text/javascript" src="public/js/jquery-3.2.1.js"></script>
@@ -16,14 +17,14 @@
 
     <body>
         <div id="mainHeader">
-            <img class="fade" alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150"  />
+            <img  alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150"  />
 
             <header>
 
                 <div class="topnav" id="myTopnav">
                     <a href="?controlador=Index&accion=mostrar" class="active">Inicio</a>
                     <a href="#Nuestra Historia">Nuestra Historia</a>
-                    <a href="#Productos">Productos</a>
+                    <a href="?controlador=Products&accion=showProducts">Productos</a>
                     <a href="#Logros">Logros</a> 
                     <a href="#Contactos">Contactos</a>
                     <a href="?controlador=VisitUs&accion=showVisitUs">Visitenos</a>
