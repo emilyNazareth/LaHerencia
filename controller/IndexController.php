@@ -9,5 +9,4 @@ class IndexController {
     public function mostrar() {
         $this->view->show("indexView.php", null);
     }
-//Keilyn Ramírez
 }
