@@ -7,7 +7,7 @@ class GaleryController {
     }
 
     public function showGalery() {
-        $this->view->show("GaleryView.php", null);
+        $this->view->show("galeryView.php", null);
     }
 
 }

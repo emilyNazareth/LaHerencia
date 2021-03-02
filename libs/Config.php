@@ -9,7 +9,6 @@ class Config {
         $this->vars = array();
     }
 
-// constructor
 
     public function set($nombreAtributo, $valor) {
         if (!isset($this->vars[$nombreAtributo])) {
@@ -17,7 +16,6 @@ class Config {
         }
     }
 
-// set Generico
 
     public function get($nombreAtributo) {
 
@@ -26,7 +24,7 @@ class Config {
         }
     }
 
-// get
+
 
     public static function singleton() {
         if (!isset(self::$instance)) {
@@ -36,8 +34,6 @@ class Config {
         return self::$instance;
     }
 
-// singleton
 }
 
-// fin clase
 ?>
