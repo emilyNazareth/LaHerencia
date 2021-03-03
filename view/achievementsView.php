@@ -9,6 +9,12 @@ include_once 'public/headerSections.php';
 <div class="container">
     <h1 class="m-4 text-center titulosProductos2">Logros de la empresa</h1>
 </div>
+<div class="container">
+    <h1 class="m-4 text-center titulosProductos2">Logros de la empresa</h1>
+</div>
+<div class="container">
+    <h1 class="m-4 text-center titulosProductos2">Logros de la empresa</h1>
+</div>
 
 
 
