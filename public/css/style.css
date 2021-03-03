@@ -24,7 +24,13 @@ article, figcaption, figure,/* footer,*/ header, nav, section{
     height: 100%;
 }
 
+.titulosProductos{
+    color: #004063;
+}
 
+.titulosProductos2{
+    color:#e1251b;
+}
 
 a{
     color: #FFF;
@@ -156,7 +162,7 @@ th, td {
 
 .topnav {
     overflow: hidden;
-    background-color: blue;
+    background-color: #004063;
 }
 
 .topnav a {
@@ -170,17 +176,20 @@ th, td {
 }
 
 .topnav a:hover {
-    background-color: red;
-    color: black;
+    background-color: #335384;
+    color: white;
+    text-decoration: none;
 }
 
 .topnav a.active {
-    background-color: red;
+    background-color: #335384;
     color: white;
+
 }
 
 .topnav .icon {
     display: none;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -226,12 +235,69 @@ th, td {
 
 #footerSections
 {
-    background-color: blue;
-    position: absolute;
+    background-color: #1E6381;
     bottom: 0;
     width: 100%;
     height: 40px;
     color: white;
     display: block;
     text-align: center;
+    margin-top: 100px;
+}
+
+#previous {
+    color: blue;
+}
+
+#next {
+    color: blue;
+}
+
+#galery {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+section#historySections{
+
+    padding: 10px;
+    margin-left: 180px; 
+    /*margin-right: 150px;*/
+    /*font-size: 18px;*/
+    text-align: center;
+    margin-top: 150px;
+
+
+}
+
+section#historySections:hover{
+    border-radius: 0.35em;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    font-size: 20px;
+    color:rgba(251, 142, 0, 0.849) !important;
+    background-color:  rgba(19, 9, 110, 0.13) !important;
+    /*margin-left: 180px;*/ 
+    /*margin-right: 150px;*/
+    margin-top: 150px;
+
+}
+
+#descriptionHistory{
+    color: #1E6381;
+}
+
+#titleHistory{
+    color: red;
+}
+
+#mainHistory{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
 }
