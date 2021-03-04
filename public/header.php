@@ -51,5 +51,5 @@
 
             </header>
 
-            <section id="contenido">
+                <section id="contenido">
                 <section id="principal">
