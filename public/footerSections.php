@@ -2,9 +2,9 @@
 
 <footer>
 
-<!--<div id="footerSections">
+<div id="footerSections">
     <h4>Proyecto TCU</h4>
-</div>-->
+</div>
 </footer>
 
 </body>
