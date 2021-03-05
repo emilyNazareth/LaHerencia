@@ -1,11 +1,14 @@
 </section>
 </section>
+</div>
 <footer>
     <div id="footerSections">
-        <h4>Proyecto TCU</h4>
+        <center>
+            <h4 id="footerContent">Proyecto TCU</h4>
+        </center>
     </div>
 </footer>
-</div>
+
 
 </body>
 
