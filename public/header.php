@@ -17,7 +17,8 @@
 
     <body>
         <div id="mainHeader">
-            <img  alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150"  />
+
+            <img  class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150"/>
 
             <header>
 
@@ -29,8 +30,8 @@
                     <a href="#Contactos">Contactos</a>
                     <a href="?controlador=VisitUs&accion=showVisitUs">Visitenos</a>
                     <a href="?controlador=Galery&accion=showGalery">Galería de fotos</a>
-                    <a href="javascript:void(0);" class="icon" onclick="updateClassName()" style="color: black">
-                        <i class="fa fa-bars"></i>
+                    <a href="javascript:void(0);" class="icon" style="background-color: #B22222; color: black" onclick="updateClassName()">
+                        <i class="fa fa-bars" style="background-color: #B22222; color: black"></i>
                     </a>
                 </div>
 

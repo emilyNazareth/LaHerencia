@@ -7,7 +7,7 @@
 
 
 
-article, figcaption, figure,/* footer,*/ header, nav, section{
+article, figcaption, figure,/* header,*/ nav, section{
     display: block;
     text-align: center;
 
@@ -15,13 +15,25 @@ article, figcaption, figure,/* footer,*/ header, nav, section{
 
 #mainHeader{
     background: #212121 url(../img/found.jpg);  
-    font-size: 1em;
+    font-size: 17px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
-    height: 100%;
+    height: 100%;  
+}
+
+
+#mainHeaderSections{
+    background: white;  
+    font-size: 17px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    height: 100%;  
 }
 
 .titulosProductos{
@@ -85,13 +97,13 @@ legend{
 textarea{
     resize: none;
 }
-header, section#contenido/*, footer*/{
+section#contenido{
     margin: 0 auto;
     max-width: 90%;
 }
 
 
-header h1, nav{
+h1, nav{
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
@@ -132,33 +144,12 @@ article#descripcion{
     text-align: justify;
 }
 
-/*footer{
-    color: #000;
-    font-size: 0.85em;
-    padding: 0.75em 0;
-}*/
 
 .fade{
     opacity: 1;
     filter:alpha(opacity=10);
 
 }
-
-table, td, th {    
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    padding: 15px;
-}
-
-
 
 .topnav {
     overflow: hidden;
@@ -176,13 +167,22 @@ th, td {
 }
 
 .topnav a:hover {
-    background-color: #335384;
+    background-color: #B22222;
     color: white;
     text-decoration: none;
+
+    border-radius: 0.35em;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    font-size: 22px;
+    color:white !important;
 }
 
 .topnav a.active {
-    background-color: #335384;
+    /*background-color: #B22222;*/
     color: white;
 
 }
@@ -191,6 +191,8 @@ th, td {
     display: none;
 
 }
+
+
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -215,34 +217,65 @@ th, td {
 }
 
 
-.button {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
+
+.btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 0px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #B22222;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    margin: 350px 18px;
-    cursor: pointer;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+    margin: 300px 18px;
+}
+.btn:hover, .btn:focus {
+    opacity: 0.8;
+}
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.btn.block {
+    display: block !important;
 }
 
-.button1 {
-    font-size: 30px;
-    border: 2px solid blue; 
+.red {
+    background-color: #B22222;
 }
 
 
 #footerSections
 {
-    background-color: #1E6381;
+    background-color: #004063;
     bottom: 0;
     width: 100%;
-    height: 40px;
+    height: 200px;
     color: white;
     display: block;
     text-align: center;
-    margin-top: 100px;
+}
+
+#footerContent{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;    
 }
 
 #previous {
@@ -262,9 +295,7 @@ th, td {
 section#historySections{
 
     padding: 10px;
-    margin-left: 180px; 
-    /*margin-right: 150px;*/
-    /*font-size: 18px;*/
+    margin-left: 180px;  
     text-align: center;
     margin-top: 150px;
 
@@ -281,8 +312,6 @@ section#historySections:hover{
     font-size: 20px;
     color:rgba(251, 142, 0, 0.849) !important;
     background-color:  rgba(19, 9, 110, 0.13) !important;
-    /*margin-left: 180px;*/ 
-    /*margin-right: 150px;*/
     margin-top: 150px;
 
 }
@@ -292,7 +321,7 @@ section#historySections:hover{
 }
 
 #titleHistory{
-    color: red;
+    color: #B22222;
 }
 
 #mainHistory{
@@ -301,3 +330,31 @@ section#historySections:hover{
     align-items: center;  
 
 }
+
+#visitUsTitle{
+    color: #B22222; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.mapDetail{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-top: 3em;
+}
+
+.mapDetail iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+
