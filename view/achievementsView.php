@@ -38,18 +38,6 @@ include_once 'public/headerSections.php';
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
 
 include_once 'public/footerSections.php';
