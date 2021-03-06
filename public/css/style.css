@@ -4,14 +4,11 @@
     padding: 0;  
 }
 
-
-
-
 article, figcaption, figure,/* header,*/ nav, section{
     display: block;
     text-align: center;
-
 }
+
 
 #mainHeader{
     background: #212121 url(../img/found.jpg);  

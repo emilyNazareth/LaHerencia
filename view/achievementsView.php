@@ -2,8 +2,8 @@
 
 include_once 'public/headerSections.php';
 ?>
-<div class="container">
-    <h1 class="m-4 text-center titulosProductos2">Logros de la empresa</h1>
+<div class="container text-center mb-5">
+    <h1 class="m-4 titulosProductos2">Logros de la empresa</h1>
 
     <div class="row text-center align-items-center">
         <div class="col-6 text-center ">
@@ -34,7 +34,6 @@ include_once 'public/headerSections.php';
             <img src="public/img/Producto1.jpg" alt="Queso Fresco" width="400" height=400">
         </div>
     </div>
-
 
 </div>
 
