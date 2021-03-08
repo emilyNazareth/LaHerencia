@@ -5,13 +5,12 @@
 }
 
 
-
-
 article, figcaption, figure, nav, section{
+
     display: block;
     text-align: center;
-
 }
+
 
 #mainHeader{
     background: #212121 url(../img/found.jpg);  
