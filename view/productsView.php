@@ -2,37 +2,27 @@
 
 include_once 'public/headerSections.php';
 ?>
-<div class="container">
+<div class="container text-center">
     <h1 class="m-4 text-center titulosProductos2">Productos de Lácteos Herencia</h1>
 
     <div class="row text-center align-items-center">
-        <div class="col-sm-6 text-center ">
+        <div class="col-6 text-center ">
             <p>Nuestros</p>
             <p>Productos</p>
         </div>
-        <div class="col-sm-6">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="col-6 text-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="public/img/Producto1.jpg" class="d-block w-100" alt="..." >
+                        <img src="public/img/Producto1.jpg" class="d-block w-50" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="public/img/Queso1.jpg" class="d-block w-100" alt="..." >
+                        <img src="public/img/Queso1.jpg" class="d-block w-50" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="public/img/Quesos2.jpg" class="d-block w-100" alt="..." >
+                        <img src="public/img/Quesos2.jpg" class="d-block w-50" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div> <!-- Falta agregarle el js para que funcione junto con el jquery -->
     </div><!-- Hacer pequeñas las imagenes -->
