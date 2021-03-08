@@ -27,12 +27,12 @@
 
                 <div class="topnav" id="myTopnav">
                     <a href="?controlador=Index&accion=mostrar" class="active">Inicio</a>
-                    <a href="?controlador=History&accion=showHistory">Nuestra Historia</a>
-                    <a href="?controlador=Products&accion=showProducts">Productos</a>
-                    <a href="?controlador=Achievements&accion=showAchievements">Logros</a> 
-                    <a href="#Contactos">Contactos</a>
-                    <a href="?controlador=VisitUs&accion=showVisitUs">Visitenos</a>
-                    <a href="?controlador=Galery&accion=showGalery">Galería de fotos</a>
+                    <a href="?controlador=History&accion=showHistory" class="active">Nuestra Historia</a>
+                    <a href="?controlador=Products&accion=showProducts" class="active">Productos</a>
+                    <a href="?controlador=Achievements&accion=showAchievements" class="active">Logros</a> 
+                    <a href="#Contactos" class="active">Contactos</a>
+                    <a href="?controlador=VisitUs&accion=showVisitUs" class="active">Visitenos</a>
+                    <a href="?controlador=Galery&accion=showGalery" class="active">Galería de fotos</a>
                     <a href="javascript:void(0);" class="icon" style="background-color: #B22222" onclick="updateClassName()">
                         <i class="fa fa-bars" style="background-color: #B22222"></i>
                     </a>
@@ -49,16 +49,7 @@
                     }
                 </script>
 
-                <script>
-                    function updateClassName() {
-                        var x = document.getElementById("myTopnav");
-                        if (x.className === "topnav") {
-                            x.className += " responsive";
-                        } else {
-                            x.className = "topnav";
-                        }
-                    }
-                </script>
+          
 
 
 
