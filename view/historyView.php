@@ -43,7 +43,6 @@ include_once 'public/headerSections.php';
                     <p id="titleHistory">¿5 Estrellas?</p> 
                     <p id="descriptionHistory">Las estrellas en el logotipo hacen referencia a nuetsros inicios como finca productora de lácteos, con tan solo cinco vacas se dió origen a esta gran aventura</p>   
                     <img class="card-img-top" src="public/img/history4.png"  alt="Card image cap">
-
                 </section>
             </div>
         </div>
