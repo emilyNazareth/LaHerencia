@@ -2,16 +2,13 @@
 include_once 'public/header.php';
 ?>
 
-<div class="container my-5">   
+<div class="container">
     <div class="row">
-        <div class="col-md-4 col-lg-2">
-            <a href="?controlador=Products&accion=showProducts" class="btn">Nuestros Productos</a>
+        <div class="col-sm">
+            <a href="?controlador=Products&accion=showProducts" class="btn sample btn-lg active btn-sample">Nuestros Productos</a>
         </div>
-    </div>
-
+    </div>    
 </div>
-
-
 
 
 <?php
