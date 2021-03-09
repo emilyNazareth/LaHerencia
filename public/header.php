@@ -37,11 +37,6 @@
                        onclick="updateClassName()">
                         <i class="fa fa-bars" style="background-color: #B22222; color: black"></i>
                     </a>
-<!--                    <a
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </a>-->
                 </div>
 
                 <script>
@@ -53,7 +48,9 @@
                             x.className = "topnav";
                         }
                     }
+
                 </script>          
+
 
 
             </header>
