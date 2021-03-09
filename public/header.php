@@ -21,43 +21,15 @@
 
     <body id="main">
         <div>   
-<!--            <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoWithoutBackground.png" width="300"
-                 height="150"/>-->
-            <header>
-                <!--
-                                <div class="topnav" id="myTopnav">              
-                                    <a href="?controlador=Index&accion=mostrar" class="active">Inicio</a>
-                                    <a href="?controlador=History&accion=showHistory" class="active">Nuestra Historia</a>
-                                    <a href="?controlador=Products&accion=showProducts" class="active">Productos</a>
-                                    <a href="?controlador=Achievements&accion=showAchievements" class="active">Logros</a>
-                                    <a href="?controlador=Contact&accion=showContact" class="active">Contactos</a>
-                                    <a href="?controlador=VisitUs&accion=showVisitUs" class="active">Visítenos</a>
-                                    <a href="?controlador=Galery&accion=showGalery" class="active">Galería de fotos</a>
-                                    <a href="javascript:void(0);" class="icon" style="background-color: #B22222; color: black"
-                                       onclick="updateClassName()">
-                                        <i class="fa fa-bars" style="background-color: #B22222; color: black"></i>
-                                    </a>
-                                </div>
-                
-                                <script>
-                                    function updateClassName() {
-                                        var x = document.getElementById("myTopnav");
-                                        if (x.className === "topnav") {
-                                            x.className += " responsive";
-                                        } else {
-                                            x.className = "topnav";
-                                        }
-                                    }
-                
-                                </script>          -->
+            <header>           
                
                 <div class="bs-example" style="margin-top: 50px">
-                    <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
                         <a href="#" class="navbar-brand">
                             <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoWithoutBackground.png" width="200"
                                  height="150"/>
                         </a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <button type="button" class="navbar-toggler bg-danger" data-toggle="collapse" data-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
