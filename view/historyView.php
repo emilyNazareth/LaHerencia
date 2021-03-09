@@ -3,8 +3,8 @@ include_once 'public/headerSections.php';
 ?>
 
 <div id="mainHistory">
-
     <div class="container">
+        <h2 id="visitUsTitle">Nuestra historia</h2>
         <div class="row">
             <div class="col-sm">
                 <section id="historySections">

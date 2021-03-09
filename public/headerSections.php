@@ -22,7 +22,6 @@
     <body>
         <div id="mainHeaderSections">
             <img class="img-fluid" alt="Productos lácteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150" />
-
             <header>
 
                 <div class="topnav" id="myTopnav">
@@ -30,7 +29,7 @@
                     <a href="?controlador=History&accion=showHistory" class="active">Nuestra Historia</a>
                     <a href="?controlador=Products&accion=showProducts" class="active">Productos</a>
                     <a href="?controlador=Achievements&accion=showAchievements" class="active">Logros</a> 
-                    <a href="#Contactos" class="active">Contactos</a>
+                    <a href="?controlador=Contact&accion=showContact" class="active">Contactos</a>
                     <a href="?controlador=VisitUs&accion=showVisitUs" class="active">Visítenos</a>
                     <a href="?controlador=Galery&accion=showGalery" class="active">Galería de fotos</a>
                     <a href="javascript:void(0);" class="icon" style="background-color: #B22222" onclick="updateClassName()">
@@ -49,7 +48,7 @@
                     }
                 </script>
 
-          
+
 
 
 
