@@ -21,11 +21,11 @@
 
     <body>
         <div id="mainHeader">   
-            <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoHerencia.png" width="300"
+            <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoWithoutBackground.png" width="300"
                  height="150"/>
             <header>
 
-                <div class="topnav" id="myTopnav">
+                <div class="topnav" id="myTopnav">              
                     <a href="?controlador=Index&accion=mostrar" class="active">Inicio</a>
                     <a href="?controlador=History&accion=showHistory" class="active">Nuestra Historia</a>
                     <a href="?controlador=Products&accion=showProducts" class="active">Productos</a>
@@ -37,9 +37,6 @@
                        onclick="updateClassName()">
                         <i class="fa fa-bars" style="background-color: #B22222; color: black"></i>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
 
                 <script>
@@ -51,7 +48,8 @@
                             x.className = "topnav";
                         }
                     }
-                </script>             
+
+                </script>          
 
 
 
