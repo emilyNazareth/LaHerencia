@@ -159,8 +159,8 @@ article#descripcion{
     text-decoration: none;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 
 .topnav a:hover {
@@ -174,7 +174,7 @@ article#descripcion{
     -o-transition: font-size 0.3s ease, background-color 0.3s ease;
     -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
     transition: font-size 0.3s ease, background-color 0.3s ease;
-    font-size: 21px;
+    font-size: 20px;
     color:white !important;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -261,22 +261,6 @@ article#descripcion{
 }
 
 
-#footerSections
-{
-    background-color: #004063;
-    bottom: 0;
-    width: 100%;
-    height: 200px;
-    color: white;
-    display: block;
-    text-align: center;
-}
-
-#footerContent{
-    text-align: center;
-    vertical-align: middle;
-    line-height: 200px;    
-}
 
 #previous {
     color: blue;
@@ -352,4 +336,42 @@ section#historySections:hover{
     position:absolute;
 }
 
+/*Footer*/ 
+#footerSections
+{
+    background-color: #004063;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+    color: white;
+    display: block;
+    text-align: center;
+}
 
+#footerContent{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;    
+}
+
+
+@media screen and (max-width: 700px) {
+    #footerSections{
+    background-color: #004063;
+    bottom: 0;
+    width: 100%;
+    height: 40vh;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20vh;
+    }
+    #imgLogoFooter{
+        width: 40vh;
+        height: 20vh;
+    }
+}
+
+#infoFooter{
+    text-align: left;
+}

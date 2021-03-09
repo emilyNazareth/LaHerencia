@@ -9,7 +9,7 @@
                     One of three columns
                 </div>
                 <div class="col">
-                    One of three columns
+                    <img src="public/img/LogoHerenciaBlanco.png" alt="Lácteos Herencia" width="400" height=200">
                 </div>
                 <div class="col">
                     <h4 id="footerContent">Proyecto TCU</h4>
