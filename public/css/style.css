@@ -157,11 +157,11 @@ section#principal{
 
 /*Button main page*/
 .btn-sample { 
-  color: white; 
-  background-color: #B52222; 
-  margin: 300px 18px;
+    color: white; 
+    background-color: #B52222; 
+    margin: 300px 18px;
 } 
- 
+
 .btn-sample.active, 
 .open .dropdown-toggle.btn-sample { 
     color: white; 
@@ -195,6 +195,8 @@ section#principal{
     margin-bottom: 100px;
 }
 
+
+
 /*History*/
 
 section#historySections{
@@ -224,6 +226,7 @@ section#historySections:hover{
 
 #titleHistory{
     color: #B22222;
+    font-size: 20px;
 }
 
 #mainHistory{
@@ -300,4 +303,18 @@ section#historySections:hover{
     text-align: left;
 }
 
+/*Contact Section*/
+
+label.contactLabels{
+    font-size: 18px;
+    color: #004063;
+    margin-left: 25px;
+}
+
+#contactTitles{
+    color: #B22222; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+}
 
