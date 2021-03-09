@@ -7,7 +7,7 @@ class ContactController {
     }
 
     public function showContact() {
-        $this->view->show("ContactView.php", null);
+        $this->view->show("contactView.php", null);
     }
 
 }
