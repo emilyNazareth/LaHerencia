@@ -21,7 +21,7 @@
 
     <body>
         <div id="mainHeaderSections">
-            <img class="img-fluid" alt="Productos lácteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150" />
+            <img class="img-fluid" alt="Productos lácteos la Herencia" src="public/img/logoWithoutBackground.png" width="300" height="150" />
             <header>
 
                 <div class="topnav" id="myTopnav">
