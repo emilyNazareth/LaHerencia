@@ -6,10 +6,10 @@ include_once 'public/headerSections.php';
     <h1 class="m-4 titulosProductos2">Logros de la empresa</h1>
 
     <div class="row text-center align-items-center">
-        <div class="col-6 text-center ">
-            <img src="public/img/Producto1.jpg" alt="Queso Fresco" width="400" height=400">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center" id="achievementSection">
+            <img src="public/img/Producto1.jpg" id="imgAchievOne" alt="Queso Fresco" width="400" height="400" >
         </div>
-        <div class="col-6">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="achievementSection">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -22,16 +22,16 @@ include_once 'public/headerSections.php';
     </div>
 
     <div class="row text-center align-items-center">
-        <div class="col-6 text-center ">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center" id="achievementSection">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
             </p>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="achievementSection">
 
-            <img src="public/img/Producto1.jpg" alt="Queso Fresco" width="400" height=400">
+            <img src="public/img/Producto1.jpg" id="imgAchievOne" alt="Queso Fresco" width="400" height=400">
         </div>
     </div>
 
