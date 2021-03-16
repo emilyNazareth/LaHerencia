@@ -63,13 +63,13 @@ section{
     color: #ffffff; 
     background-color: #E1251B; 
     border-color: #E1251B; 
-  } 
-   
-  .btn-nav:hover { 
+} 
+
+.btn-nav:hover { 
     color: #ffffff; 
     background-color: #A30D05; 
     border-color: #E1251B; 
-  } 
+} 
 
 
 
@@ -79,7 +79,7 @@ section{
 }
 
 .titulosProductos2{
-    color:#e1251b;
+    color: #446881; 
 }
 
 
@@ -192,7 +192,7 @@ section#principal{
 
 section#historySections{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
 
 
 }
@@ -231,10 +231,10 @@ section#historySections:hover{
 /*Visit Us*/
 
 #visitUsTitle{
-    color: #B22222; 
+    color: #446881; 
     text-align: center;
-    padding: 10px;
-    margin-top: 25px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .mapDetail{
@@ -280,7 +280,7 @@ section#historySections:hover{
         margin-top: 2vh;
     }
 
-     #iconosFooter{
+    #iconosFooter{
         text-align: center;
     }
     #footerSections{
@@ -311,8 +311,8 @@ section#historySections:hover{
     #iconosFooter{
         text-align: center;
     }
-    
-    
+
+
 }
 
 @media screen and (max-width: 540px) {
@@ -333,7 +333,7 @@ section#historySections:hover{
     #infoFooter{
         text-align: center;
     }
-    
+
 }
 
 
@@ -346,7 +346,7 @@ label.contactLabels{
 }
 
 #contactTitles{
-    color: #B22222; 
+    color: #446881; 
     text-align: center;
     padding: 10px;
     margin-top: 25px;

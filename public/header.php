@@ -29,7 +29,7 @@
                             <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoWithoutBackground.png" width="200"
                                  height="150"/>
                         </a>
-                        <button type="button" class="navbar-toggler btn-nav" data-toggle="collapse" data-target="#navbarCollapse">
+                        <button type="button" class="navbar-toggler  bg-danger" data-toggle="collapse" data-target="#navbarCollapse">
                             <span class="navbar-toggler-icon btn-nav "></span>
                         </button>
 
