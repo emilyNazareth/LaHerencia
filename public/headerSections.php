@@ -42,7 +42,6 @@
                                 <a href="?controlador=VisitUs&accion=showVisitUs"  class="nav-item nav-link change" style="color: white">Visítenos</a>
                                 <a href="?controlador=Galery&accion=showGalery"  class="nav-item nav-link change" style="color: white">Galería de fotos</a>
                             </div>
-
                         </div>
                     </nav>
                 </div>
