@@ -24,7 +24,7 @@
             <header>
                 <div class="bs-example" style="margin-top: 50px">
                     <nav class="navbar navbar-expand-md navbar-light bg-white">
-                        <a href="#" class="navbar-brand">
+                        <a href="?controlador=Index&accion=mostrar" class="navbar-brand">
                             <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoWithoutBackground.png" width="200"
                                  height="150"/>
                         </a>

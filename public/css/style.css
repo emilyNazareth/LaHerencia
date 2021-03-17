@@ -72,7 +72,7 @@ section{
 } 
 
 
-
+/*Products Section*/
 
 .titulosProductos{
     color: #004063;
@@ -81,6 +81,17 @@ section{
 .titulosProductos2{
     color: #446881; 
 }
+
+#cardProducts{
+    font-size: 2vh;
+}
+
+@media screen and (max-width: 700px) {
+    #cardProducts{
+        font-size: 4px;
+    }
+}
+
 
 
 /*Achievements Section*/
@@ -113,6 +124,8 @@ a{
     font-weight: bold;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 
@@ -133,7 +146,7 @@ section#principal{
 
 
 .change:hover {
-    background-color: #B22222;
+    background-color: #306583;
     color: white;
     text-decoration: none;
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -315,7 +328,7 @@ section#historySections:hover{
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 690px) {
     #footerSections{
         background-color: #004063;
         bottom: 0;
