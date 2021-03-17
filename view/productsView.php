@@ -61,7 +61,7 @@ include_once 'public/headerSections.php';
 
     <h1 class="m-4 text-center titulosProductos2">Productos disponibles</h1>
 
-    <div class="row m-5">
+    <div class="row" id="sizeCard">
         <div class="col-12">
             <div class="card mb-3" >
                 <div class="row g-0 align-items-center">
@@ -84,9 +84,9 @@ include_once 'public/headerSections.php';
         </div>
     </div>
 
-    <div class="row m-5">
+    <div class="row" id="sizeCard">
         <div class="col-sm-6">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" >
                 <div class="row g-0 align-items-center">
                     <div class="col-md-5 m-2">
                         <img src="public/img/Producto1.jpg" alt="..." width="200" height="200">
@@ -105,7 +105,7 @@ include_once 'public/headerSections.php';
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" >
                 <div class="row g-0 align-items-center">
                     <div class="col-md-5 m-2">
                         <img src="public/img/Queso1.jpg" alt="..." width="200" height="200">

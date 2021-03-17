@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <img id="imgLogoFooter" src="public/img/LogoHerenciaBlanco.png" alt="Lácteos Herencia" width="400"
-                        height=200">
+                        height="200">
                 </div><!-- redireccionarlo al inicio -->
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
                     <ul class="list-unstyled " id="iconosFooter">
