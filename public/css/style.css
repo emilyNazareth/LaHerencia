@@ -84,12 +84,25 @@ section{
 
 #cardProducts{
     font-size: 2vh;
+    max-width: 540px;
+}
+
+#sizeCard{
+   
+    margin: 2vh;
 }
 
 @media screen and (max-width: 700px) {
     #cardProducts{
-        font-size: 4px;
+        font-size: 1.5vh;
+        max-width: 640px;max-width: 640px;
     }
+
+    #sizeCard{
+        
+        margin: 2vh;
+    }
+
 }
 
 
@@ -333,7 +346,7 @@ section#historySections:hover{
         background-color: #004063;
         bottom: 0;
         width: 100%;
-        height: 35vh;
+        height: 38vh;
         color: white;
         display: block;
         text-align: center;
@@ -349,6 +362,26 @@ section#historySections:hover{
 
 }
 
+@media screen and (max-width: 375px) {
+    #footerSections{
+        background-color: #004063;
+        bottom: 0;
+        width: 100%;
+        height: 38vh;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    #imgLogoFooter{
+        width: 32vh;
+        height: 15vh;
+    }
+
+    #infoFooter{
+        text-align: center;
+    }
+
+}
 
 /*Contact Section*/
 
