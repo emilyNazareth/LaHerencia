@@ -72,7 +72,7 @@ section{
 } 
 
 
-
+/*Products Section*/
 
 .titulosProductos{
     color: #004063;
@@ -81,6 +81,30 @@ section{
 .titulosProductos2{
     color: #446881; 
 }
+
+#cardProducts{
+    font-size: 2vh;
+    max-width: 540px;
+}
+
+#sizeCard{
+   
+    margin: 2vh;
+}
+
+@media screen and (max-width: 700px) {
+    #cardProducts{
+        font-size: 1.5vh;
+        max-width: 640px;max-width: 640px;
+    }
+
+    #sizeCard{
+        
+        margin: 2vh;
+    }
+
+}
+
 
 
 /*Achievements Section*/
@@ -113,6 +137,8 @@ a{
     font-weight: bold;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 
@@ -133,7 +159,7 @@ section#principal{
 
 
 .change:hover {
-    background-color: #B22222;
+    background-color: #306583;
     color: white;
     text-decoration: none;
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -150,7 +176,7 @@ section#principal{
 .btn-sample { 
     color: white; 
     background-color: #B52222; 
-    margin: 300px 18px;
+    margin: 200px 18px;
 } 
 
 .btn-sample.active, 
@@ -315,12 +341,12 @@ section#historySections:hover{
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 690px) {
     #footerSections{
         background-color: #004063;
         bottom: 0;
         width: 100%;
-        height: 35vh;
+        height: 38vh;
         color: white;
         display: block;
         text-align: center;
@@ -336,6 +362,26 @@ section#historySections:hover{
 
 }
 
+@media screen and (max-width: 375px) {
+    #footerSections{
+        background-color: #004063;
+        bottom: 0;
+        width: 100%;
+        height: 38vh;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    #imgLogoFooter{
+        width: 32vh;
+        height: 15vh;
+    }
+
+    #infoFooter{
+        text-align: center;
+    }
+
+}
 
 /*Contact Section*/
 
@@ -351,4 +397,12 @@ label.contactLabels{
     padding: 10px;
     margin-top: 25px;
 }
+
+
+
+
+
+
+
+
 
