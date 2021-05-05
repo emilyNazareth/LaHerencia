@@ -176,7 +176,7 @@ section#principal{
 .btn-sample { 
     color: white; 
     background-color: #B52222; 
-    margin: 300px 18px;
+    margin: 200px 18px;
 } 
 
 .btn-sample.active, 
@@ -397,4 +397,12 @@ label.contactLabels{
     padding: 10px;
     margin-top: 25px;
 }
+
+
+
+
+
+
+
+
 
