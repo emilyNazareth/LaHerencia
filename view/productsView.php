@@ -61,36 +61,22 @@ include_once 'public/headerSections.php';
 
     <h1 class="m-4 text-center titulosProductos2">Productos disponibles</h1>
 
-    <div class="row m-5">
-        <div class="col-sm-6">
-            <div class="card mb-3" style="max-width: 540px;">
+    <div class="row" id="sizeCard">
+        <div class="col-12">
+            <div class="card mb-3" >
                 <div class="row g-0 align-items-center">
                     <div class="col-md-5 m-2">
                         <img src="public/img/Queso1.jpg" alt="..." width="200" height="200">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
-                            <h5 class="card-title titulosProductos">Card title</h5>
-                            <p class="card-text">This is a wider card with
-                                additional content. This content is a little bit longer.</p>
-                            <p> Precio: #####</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-5 m-2">
-                        <img src="public/img/Quesos2.jpg" alt="..." width="200" height="200">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title titulosProductos">Card title</h5>
-                            <p class="card-text">This is a wider card with
-                                additional content. This content is a little bit longer.</p>
-                            <p> Precio: #####</p>
+                            <h5 class="card-title titulosProductos">Queso Turrialba Certificado con
+                            Denominación de Origen</h5>
+                            <p class="card-text text-left" id="cardProducts">Producto elaborado con leche fresca 
+                            he íntegra y con una receta tradicional y origenal que ha
+                            sido hereda de generación en generación, de sabor suave,
+                            semiduro, cremoso y de color blanco-amarillento, ideal
+                            para desayunos, para freír, o comerlo solo.</p>
                         </div>
                     </div>
                 </div>
@@ -98,36 +84,39 @@ include_once 'public/headerSections.php';
         </div>
     </div>
 
-    <div class="row m-5">
+    <div class="row" id="sizeCard">
         <div class="col-sm-6">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" >
                 <div class="row g-0 align-items-center">
                     <div class="col-md-5 m-2">
                         <img src="public/img/Producto1.jpg" alt="..." width="200" height="200">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
-                            <h5 class="card-title titulosProductos">Queso Fresco</h5>
-                            <p class="card-text text-justify">Descripción: Lorem ipsum dolor sit amet,
-                                dolore magna aliqua.</p>
-                            <p> Precio: #####</p>
+                            <h5 class="card-title titulosProductos">Queso maduro</h5>
+                            <p class="card-text text-left" id="cardProducts">Producto 100% artesanal,
+                            elaborado con técnicas ambiguas y además manteniendo
+                            siempre la inocuidad, no contiene colorante ni cultivos lácteos,
+                            de sabor suave-fuerte, es especial para derretir y utilizar en
+                            elaboración de platillos en la cocina..</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
+            <div class="card mb-3" >
+                <div class="row g-0 align-items-center">
                     <div class="col-md-5 m-2">
                         <img src="public/img/Queso1.jpg" alt="..." width="200" height="200">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
-                            <h5 class="card-title titulosProductos">Card title</h5>
-                            <p class="card-text">This is a wider card
-                                additional content. This content is a little bit longer.</p>
-                            <p> Precio: #####</p>
+                            <h5 class="card-title titulosProductos">Queso tierno</h5>
+                            <p class="card-text text-left" id="cardProducts">Producto fresco, presenta un sabor y
+                            consistencia suave bajo en sal, elaborado con estrictos
+                            controles de higiene y desinfeccion, ideal para desayunos y
+                            acompañamiento en distintos platillos.</p>
                         </div>
                     </div>
                 </div>

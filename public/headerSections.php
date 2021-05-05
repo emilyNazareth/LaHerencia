@@ -19,39 +19,31 @@
 
     </head>
 
-    <body>
+    <body id="sections">
         <div id="mainHeaderSections">
-            <img class="img-fluid" alt="Productos lácteos la Herencia" src="public/img/logoHerencia.png" width="300" height="150" />
-
             <header>
+                <div class="bs-example" style="margin-top: 50px">
+                    <nav class="navbar navbar-expand-md navbar-light bg-white">
+                        <a href="?controlador=Index&accion=mostrar" class="navbar-brand">
+                            <img class="img-fluid" alt="Productos lacteos la Herencia" src="public/img/logoWithoutBackground.png" width="200"
+                                 height="150"/>
+                        </a>
+                        <button type="button" class="navbar-toggler  bg-danger" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                <div class="topnav" id="myTopnav">
-                    <a href="?controlador=Index&accion=mostrar" class="active">Inicio</a>
-                    <a href="?controlador=History&accion=showHistory" class="active">Nuestra Historia</a>
-                    <a href="?controlador=Products&accion=showProducts" class="active">Productos</a>
-                    <a href="?controlador=Achievements&accion=showAchievements" class="active">Logros</a> 
-                    <a href="#Contactos" class="active">Contactos</a>
-                    <a href="?controlador=VisitUs&accion=showVisitUs" class="active">Visitenos</a>
-                    <a href="?controlador=Galery&accion=showGalery" class="active">Galería de fotos</a>
-                    <a href="javascript:void(0);" class="icon" style="background-color: #B22222" onclick="updateClassName()">
-                        <i class="fa fa-bars" style="background-color: #B22222"></i>
-                    </a>
+                        <div class="collapse navbar-collapse" id="navbarCollapse" style="background-color: #004063">
+                            <div class="navbar-nav">
+                                <a href="?controlador=Index&accion=mostrar"  class="nav-item nav-link active change" style="color: white">Inicio</a>                               
+                                <a href="?controlador=History&accion=showHistory"  class="nav-item nav-link change" style="color: white">Nuestra Historia</a>
+                                <a href="?controlador=Products&accion=showProducts"  class="nav-item nav-link change" style="color: white">Productos</a>
+                                <a href="?controlador=Achievements&accion=showAchievements" class="nav-item nav-link change" style="color: white">Logros</a>
+                                <a href="?controlador=Contact&accion=showContact"  class="nav-item nav-link change" style="color: white">Contactos</a>
+                                <a href="?controlador=VisitUs&accion=showVisitUs"  class="nav-item nav-link change" style="color: white">Visítenos</a>
+                                <a href="?controlador=Galery&accion=showGalery"  class="nav-item nav-link change" style="color: white">Galería de fotos</a>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-
-                <script>
-                    function updateClassName() {
-                        var x = document.getElementById("myTopnav");
-                        if (x.className === "topnav") {
-                            x.className += " responsive";
-                        } else {
-                            x.className = "topnav";
-                        }
-                    }
-                </script>
-
-          
-
-
-
             </header>
 
