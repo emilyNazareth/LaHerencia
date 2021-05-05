@@ -263,6 +263,13 @@ section#historySections:hover{
     margin-top: 10px;
 }
 
+#visitUsDescription{
+    color: #B22222; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 .mapDetail{
     overflow:hidden;
     padding-bottom:56.25%;
