@@ -213,6 +213,20 @@ section#principal{
 }
 
 
+#galeryTitle{
+    color: #446881; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#galeryDescription{
+    color: #B22222; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 
 /*History*/
 
@@ -253,8 +267,6 @@ section#historySections:hover{
     margin-bottom: 100px;
 
 }
-
-/*Visit Us*/
 
 #visitUsTitle{
     color: #446881; 
@@ -396,6 +408,7 @@ label.contactLabels{
     font-size: 18px;
     color: #004063;
     margin-left: 25px;
+    margin-bottom: 5%;
 }
 
 #contactTitles{
@@ -405,6 +418,12 @@ label.contactLabels{
     margin-top: 25px;
 }
 
+#contactDescription{
+    color: #B22222; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
 
 
 

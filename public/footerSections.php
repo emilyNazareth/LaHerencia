@@ -5,13 +5,12 @@
             <div class="row align-items-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4" id="infoFooter">
                     <h5>Contáctenos</h5>
-                    lacteosherencia@gmail.com
-                    <p> Torito de Santa Cruz de Turrialba, Cartago.</p> <!-- eliminar los espacios -->
-                    Telefono
+                    <p> <i class="far fa-envelope-open" style="color: white;"></i> lacteosherencia@gmail.com.</p>
+                    <p> <i class="fas fa-map-marker-alt" style="color: white;"></i> Torito de Santa Cruz de Turrialba, Cartago.</p>
+                    <p><i class="fa fa-phone" style="color: white"></i>  +506 7245 1637</p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                    <img id="imgLogoFooter" src="public/img/LogoHerenciaBlanco.png" alt="Lácteos Herencia" width="400"
-                        height="200">
+                    <img id="imgLogoFooter" src="public/img/LogoHerenciaBlanco.png" alt="Lácteos Herencia" width="400" height="200">
                 </div><!-- redireccionarlo al inicio -->
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
                     <ul class="list-unstyled " id="iconosFooter">
