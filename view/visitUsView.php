@@ -1,8 +1,8 @@
 <?php
 include_once 'public/headerSections.php';
 ?>
-<h2 id="visitUsTitle">  Visítenos sera un placer atenderle</h2>
-
+<h1 id="visitUsTitle">  Visítenos sera un placer atenderle</h1>
+<h5  id="visitUsDescription" >Estamos ubicados en El Torito, Santa Cruz de Turrialba, Costa Rica.</h5>
 <div class="container">
     <div class="row">
         <div class="col-sm">
