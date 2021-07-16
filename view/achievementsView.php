@@ -7,7 +7,7 @@ include_once 'public/headerSections.php';
 
     <div class="row text-center align-items-center">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center" id="achievementSection">
-            <img src="public/img/Producto1.jpg" id="imgAchievOne" alt="Queso Fresco" width="400" height="400" >
+            <img src="public/img/Vacas.jpg" id="imgAchievOne" alt="Queso Fresco" width="400" height="400">
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="achievementSection">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -30,8 +30,7 @@ include_once 'public/headerSections.php';
             </p>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="achievementSection">
-
-            <img src="public/img/Producto1.jpg" id="imgAchievOne" alt="Queso Fresco" width="400" height=400">
+            <img src="public/img/galery7.jpg" id="imgAchievOne" alt="Queso Fresco" width="400" height=400">
         </div>
     </div>
 
