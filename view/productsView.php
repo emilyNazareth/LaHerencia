@@ -7,8 +7,7 @@ include_once 'public/headerSections.php';
 
     <div class="row text-center align-items-center m-4">
         <div class="col-6 text-center " id="textProducto">
-            <p>Conoce algunos de nuestros</p>
-            <p>productos</p>
+            <p>Conoce algunos de nuestros productos </p>
         </div>
         <div class="col-6 text-center">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -33,17 +32,17 @@ include_once 'public/headerSections.php';
     <div class="row text-center align-items-center">
         <div class="col-sm-6">
             <div class="container">
-                <div class="row justify-content-start">
+                <div class="row justify-content-start mb-3">
                     <div class="col-6">
                         <img src="public/img/Queso1.jpg" alt="Queso Fresco" width="200" height="200">
                     </div>
                 </div>
-                <div class="row justify-content-end">
+                <div class="row justify-content-end mb-3">
                     <div class="col-6">
                         <img src="public/img/Producto1.jpg" alt="Queso Fresco" width="150" height="150">
                     </div>
                 </div>
-                <div class="row justify-content-evenly">
+                <div class="row justify-content-evenly mb-3">
                     <div class="col-10">
                         <img src="public/img/Quesos2.jpg" alt="Queso Fresco" width="120" height="120">
                     </div>

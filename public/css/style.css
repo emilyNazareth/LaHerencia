@@ -108,6 +108,21 @@ section{
 
 }
 
+@media screen and (max-width: 375px) {
+    #cardProducts{
+        font-size: 1.5vh;
+        max-width: 640px;max-width: 640px;
+    }
+
+    #sizeCard{
+        margin: 2vh;
+    }
+
+    #textProducto{
+        font-size: 3vh;
+    }
+}
+
 
 /*Achievements Section*/
 
@@ -360,11 +375,11 @@ footer{
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
 
     #imgLogoFooter{
-        width: 82vh;
-        height: 30vh;
+        width: 42vh;
+        height: 20vh;
         margin: 4vh;
     }
 
