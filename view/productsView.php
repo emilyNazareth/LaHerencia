@@ -6,21 +6,20 @@ include_once 'public/headerSections.php';
     <h1 class="m-5 text-center titulosProductos2">Productos de Lácteos Herencia</h1>
 
     <div class="row text-center align-items-center m-4">
-        <div class="col-6 text-center " id="textProducto">
-            <p>Conoce algunos de nuestros</p>
-            <p>productos</p>
+        <div class="col-12 col-md-4 text-center " id="textProducto">
+            <p>Conoce algunos de nuestros productos </p>
         </div>
-        <div class="col-6 text-center">
+        <div class="col-12 col-md-8 text-center">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="public/img/Producto1.jpg" class="d-block w-50" alt="...">
+                        <img src="public/img/Producto1.jpg" class="w-50" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="public/img/Queso1.jpg" class="d-block w-50" alt="...">
+                        <img src="public/img/Queso1.jpg" class="w-50" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="public/img/Quesos2.jpg" class="d-block w-50" alt="...">
+                        <img src="public/img/Quesos2.jpg" class="w-50" alt="...">
                     </div>
                 </div>
             </div>
@@ -33,18 +32,18 @@ include_once 'public/headerSections.php';
     <div class="row text-center align-items-center">
         <div class="col-sm-6">
             <div class="container">
-                <div class="row justify-content-start">
+                <div class="row justify-content-start mb-3">
                     <div class="col-6">
                         <img src="public/img/Queso1.jpg" alt="Queso Fresco" width="200" height="200">
                     </div>
                 </div>
-                <div class="row justify-content-end">
-                    <div class="col-6">
+                <div class="row justify-content-end mb-3">
+                    <div class="col-8">
                         <img src="public/img/Producto1.jpg" alt="Queso Fresco" width="150" height="150">
                     </div>
                 </div>
-                <div class="row justify-content-evenly">
-                    <div class="col-10">
+                <div class="row justify-content-evenly mb-3">
+                    <div class="col-7">
                         <img src="public/img/Quesos2.jpg" alt="Queso Fresco" width="120" height="120">
                     </div>
                 </div>
