@@ -2,6 +2,8 @@
 </section>
 </div>
 <footer>
+
+ <div id="footerSections">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4" id="infoFooter">
@@ -24,9 +26,8 @@
                         <img src="public/img/instagram.png" style="margin-right: 25px" width="34" height="34" />
                     </a>
                 </ul>
-            </div>
-        </div>
-    </div>
+  </div>
+</div>
 </footer>
 
 

@@ -2,10 +2,10 @@
 include_once 'public/headerSections.php';
 ?>
 
-
-<div id="galery" class="text-center m-5">
-    <h2 id="titulosGalery">Galería de Fotos</h2>
-    <div id="carouselExampleControls" class="carousel slide mt-4" data-ride="carousel">
+<h1 id="galeryTitle"> Galería de fotos</h1>
+<h5 id="galeryDescription">Te compartimos algunas fotos de nuestra finca</h5>
+<div id="galery">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <center>
