@@ -126,6 +126,14 @@ section{
 
 /*Achievements Section*/
 
+.achievementsTitle{
+    color: #B22222;
+}
+
+#achievementsQuote{
+    text-align: right !important;
+}
+
 @media screen and (max-width: 1000px) {
     #imgAchievOne{
         width: 30vh;
@@ -134,15 +142,23 @@ section{
     #achievementSection{
         margin-bottom: 4vh;
     }
+
+    #achievementsQuote{
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 780px) {
     #imgAchievOne{
-        width: 22vh;
-        height: 22vh;
+        width: 40vh;
+        height: 40vh;
     }
     #achievementSection{
         margin-bottom: 2vh;
+    }
+
+    #achievementsQuote{
+        text-align: center !important;
     }
 }
 
