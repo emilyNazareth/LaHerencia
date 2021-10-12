@@ -1,8 +1,9 @@
 </div>
 <footer>
-    <div id="footerSections">
-        <div class="container">
-            <div class="row align-items-center">
+
+<div id="footerSections">
+    <div class="container">
+         <div class="row align-items-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4" id="infoFooter">
                     <h5>Contáctenos</h5>
                     <p> <i class="far fa-envelope-open" style="color: white;"></i> lacteosherencia@gmail.com.</p>

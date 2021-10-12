@@ -2,6 +2,7 @@
     border: 0;
     margin: 0;
     padding: 0;  
+    font-family: 'STIX Two Math', serif;
 }
 
 body#main{
@@ -88,28 +89,42 @@ section{
 }
 
 #sizeCard{
-   
     margin: 2vh;
 }
 
+#textProducto{
+    font-size: 3vh;
+}
+
 @media screen and (max-width: 700px) {
+    #cardProducts{
+        font-size: 2.5vh;
+        max-width: 640px;
+    }
+
+    #sizeCard{
+        margin: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
     #cardProducts{
         font-size: 1.5vh;
         max-width: 640px;max-width: 640px;
     }
 
     #sizeCard{
-        
         margin: 2vh;
     }
 
+    #textProducto{
+        font-size: 3vh;
+    }
 }
 
 
-
 /*Achievements Section*/
-
-
 
 @media screen and (max-width: 1000px) {
     #imgAchievOne{
@@ -131,7 +146,6 @@ section{
     }
 }
 
-
 a{
     color: #FFF;
     font-weight: bold;
@@ -139,6 +153,16 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2vh;
     margin-right: 2vh;
+}
+
+#textoInicio{
+    color: #004063;
+    font-size: 3vh;
+}
+
+#tituloInicio{
+    color: #B52222; 
+    margin-bottom: 2%;
 }
 
 
@@ -156,7 +180,6 @@ section#principal{
     vertical-align: top;
     width: 65%;
 }
-
 
 .change:hover {
     background-color: #306583;
@@ -199,18 +222,24 @@ section#principal{
 }
 
 /*Galery*/
+
+#titulosGalery{
+    color: #446881;
+}
+
 #previous {
-    color: blue;
+    color: #004063;
 }
 
 #next {
-    color: blue;
+    color: #004063;
 }
 
 #galery {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 
 
 #galeryTitle{
@@ -300,16 +329,14 @@ section#historySections:hover{
 
 /*Footer*/ 
 
-#footerSections
-{
+footer{
     background-color: #004063;
-    bottom: 0;
-    width: 100%;
-    height: 32vh;
     color: white;
     display: block;
     text-align: center;
 }
+
+
 #iconosFooter{
     text-align: right;
 }
@@ -328,24 +355,22 @@ section#historySections:hover{
     #iconosFooter{
         text-align: center;
     }
-    #footerSections{
-        height: 39vh;
+
+    #imgLogoFooter{
+        width: 62vh;
+        height: 30vh;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 }
 
 @media screen and (max-width: 700px) {
-    #footerSections{
-        background-color: #004063;
-        bottom: 0;
-        width: 100%;
-        height: 36vh;
-        color: white;
-        display: block;
-        text-align: center;
-    }
+   
     #imgLogoFooter{
-        width: 42vh;
-        height: 20vh;
+        width: 62vh;
+        height: 30vh;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 
     #infoFooter{
@@ -356,48 +381,42 @@ section#historySections:hover{
     #iconosFooter{
         text-align: center;
     }
-
-
 }
 
 @media screen and (max-width: 690px) {
-    #footerSections{
-        background-color: #004063;
-        bottom: 0;
-        width: 100%;
-        height: 38vh;
-        color: white;
-        display: block;
-        text-align: center;
-    }
+    
     #imgLogoFooter{
-        width: 32vh;
-        height: 15vh;
+        width: 40vh;
+        height: 20vh;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 
     #infoFooter{
         text-align: center;
+    }
+
+    footer{
+        background-color: #004063;
     }
 
 }
 
-@media screen and (max-width: 375px) {
-    #footerSections{
-        background-color: #004063;
-        bottom: 0;
-        width: 100%;
-        height: 38vh;
-        color: white;
-        display: block;
-        text-align: center;
-    }
+@media screen and (max-width: 350px) {
+
     #imgLogoFooter{
-        width: 32vh;
-        height: 15vh;
+        width: 42vh;
+        height: 20vh;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 
     #infoFooter{
         text-align: center;
+    }
+
+    footer{
+        background-color: #004063;
     }
 
 }
@@ -425,7 +444,9 @@ label.contactLabels{
     margin-top: 10px;
 }
 
-
+.centerCar{
+    text-align: center !important;
+}
 
 
 
